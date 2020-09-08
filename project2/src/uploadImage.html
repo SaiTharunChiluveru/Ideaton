@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>upload image to firebase</title>
+</head>
+<body>
+
+    <form enctype="multipart/form-data">
+        <label>select image : </label>
+        <input type="file" id="image" accept="image/*"><br><br>
+        <button type="button" onclick="upload()">Upload</button>
+    </form>
+
+	<script defer src="https://www.gstatic.com/firebasejs/7.19.1/firebase.js"></script>
+	<script defer src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+	<script defer src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+	<script defer src="init-firebase.js"></script>
+	
+	<script type="text/javascript" src="uploadimage.js"></script>
+</body>
+</html>

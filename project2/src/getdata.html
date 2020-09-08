@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Retrieve data</title>
+</head>
+<body>
+	<label for="Feild">Choose a Field:</label>
+			<select name="Field" id="FIELD">
+				<option value="crop">Crop</option>
+				<option value="instru">Instruments</option>
+				<option value="seed">Seeds</option>
+				<option value="pestiside">Pestisides or other chemicals</option>
+			</select>
+		
+<button type="button" onclick="getdata();">Get</button>
+	<table id="list">
+	<tbody>
+	</tbody>
+	</table>
+
+<!--<div class="card" style="width: 18rem;">
+  <img class="card-img-top" id="pic"alt="...">
+	<div class="card-body">
+    <h5 class="card-title" id="product"></h5>
+    <p class="card-text"><strong id="price"></strong></p>
+    <p class="card-text" id = "mobile"></p>
+    <a href="#" class="btn btn-primary" id="button1"></a>
+  </div>
+</div> --> 
+	
+
+
+	<script defer src="https://www.gstatic.com/firebasejs/7.19.1/firebase.js"></script>
+	<script defer src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+	<script defer src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+	<script defer src="init-firebase.js"></script>
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="readdata.js"></script>
+
+</body>
+</html>
